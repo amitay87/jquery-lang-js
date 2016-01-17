@@ -176,7 +176,7 @@ var Lang = (function () {
 				},
 				error: function () {
 					if (callback) { callback(true, lang, self._dynamic[lang]); }
-					throw('Error loading language pack' + self._dynamic[lang]);
+					throw('Error loading language pack ' + self._dynamic[lang]);
 				}
 			});
 		} else {
